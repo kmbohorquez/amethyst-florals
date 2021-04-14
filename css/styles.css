@@ -1,0 +1,1040 @@
+a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 175.7%;
+  color: #E11477;
+}
+
+body {
+    color: #515A63;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+h1 {
+  margin:0;
+  text-align: center;
+  font-family: 'Lemonada', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #25313C;
+  margin:0 0 15px;
+  font-family: 'Lemonada', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 141.7%;
+}
+
+h3 {
+  color: #25313C;
+  margin:0 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150.6%;
+  margin: -8px 0 0 0;
+}
+
+p {
+  margin-top: 5px;
+  line-height: 213.2%;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  align-items: center;
+  min-height: 8vh;
+}
+
+/******* class selector ******/
+
+.burger {
+  display: none;
+}
+
+.burger div{
+  width:20px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+
+.btn {
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 1px 5px #959595;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6D0D3F;
+  background: #ffffff;
+  padding: 16px 0;
+  text-decoration: none;
+  transition: transform .2s;
+  width: 248px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  transform: translate(0px, -5px);
+  text-decoration: none;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 844px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.contact-btn {
+  border-radius: 50px;
+  border: none;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #E11477;
+  padding: 16px 36px;
+  transition: transform .2s;
+  margin-top: 60px;
+}
+
+.contact-btn:hover {
+  transform: translate(0px, -5px);
+}
+
+.contact-info {
+  align-items: center;
+  color:#25313C;
+  text-decoration: none;
+  font-weight: 400;
+  display: flex;
+  margin-top: 15px;
+}
+
+.contact-links {
+  margin-left: 25px;
+  margin-bottom: 7px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 55px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1160px;
+  text-align: center;
+}
+
+
+.copyright {
+  font-weight:600;
+  font-size:14px;
+  color:#BBC8D4;
+  margin:0 auto -40px;
+  max-width:1160px;
+  text-align:left;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  max-width: 1160px;
+  flex-direction: row;
+}
+
+.flex-box-footer {
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  max-width: 1190px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.flex-box-pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1160px;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.footer-column {
+  width: auto;
+  min-height: 200px;
+  margin: 0 15px;
+}
+
+.footer-column-hide {
+  min-height: 100px;
+  margin: 0 0 0 15px;
+}
+
+
+.footer-link {
+  display: block;
+  padding: 5px 0;
+  color: #515A63;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  color: #E11477;
+}
+
+.footer-section {
+  background-color: white;
+  padding: 60px 45px;
+}
+
+.footer-section-pink {
+  background-color: #FAF2FA;
+  padding: 60px 45px;
+}
+
+.gallery-container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1160px;
+  padding: 0 60px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-heading {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  max-width: 1160px;
+  flex-direction: row;
+  padding: 50px 60px 30px;
+}
+
+.gallery-image {
+  margin-bottom: 1.35vw;
+  max-width: 32%;
+}
+
+.h2-pages {
+  margin-bottom: 30px;
+}
+
+.heidi-pic {
+  text-align:right;
+  margin-top: -20px;
+}
+
+.hero-section {
+  background-image: url('../images/Hero-background.png');
+  background-size: cover;
+  min-height: 800px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.hero-text {
+  padding: 120px 60px 90px 60px;
+  max-width: 704px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-link {
+  color: #25313C;
+}
+
+.icon-link:hover {
+  color: #E11477;
+}
+
+.landscaping-page {
+  padding: 30px 60px 120px;
+  background-color: #FAF2FA;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  transition: transform .2s;
+  margin-top:40px;
+}
+
+.learn-more:hover {
+  transform: translate(5px, 0px);
+}
+
+.nav-links {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.section-container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.nav-links a{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175.7%;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover{
+  color: #E11477;
+}
+
+.nav-links li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav-links-pg {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.nav-links-pg a{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175.7%;
+  color: #515A63;
+  text-decoration: none;
+}
+
+.nav-links-pg a:hover{
+  color: #E11477;
+}
+
+.nav-links-pg li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+.profile-pic {
+  width:56px;
+  height: 56px;
+  margin-right: 16px;
+}
+
+.reviewer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.second-paragraph {
+  margin-top: 30px;
+}
+
+.section-white {
+  padding: 80px 60px;
+}
+
+.section-pink {
+  padding: 80px 60px;
+  background-color: #FAF2FA;
+}
+
+.section-testimonial {
+  padding: 80px 45px;
+  background-color: #FAF2FA;
+}
+
+.stars {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width:120px;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+
+.testimonial-card {
+  margin: 15px 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px #ABABAB;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 32px;
+  max-width: 565px;
+}
+
+.text-box {
+  max-width: 433px;
+  margin-right: 40px;
+}
+
+.text-box-pages {
+  max-width: 564px;
+  margin-right: 10px;
+}
+
+.text-box-pink {
+  max-width: 433px;
+  margin-left: 40px;
+}
+
+/******* ID selector ******/
+
+#pink-flwr {
+  max-width: 257px;
+  position: absolute;
+  right: 0;
+  margin-top: -207px;
+}
+
+#l-pink-flwr {
+  max-width: 150px;
+  position: absolute;
+  left: 0;
+  margin-top: -50px;
+}
+
+#white-flwr {
+  max-width: 227px;
+  position: absolute;
+  right: 100px;
+  margin-top: -28px;
+}
+
+
+/******* media queries ******/
+
+/*******large tablets - 992px or less ******/
+
+@media only screen and (max-width: 991px) {
+
+  a {
+    font-size: 14px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    line-height: 128%;
+  }
+
+  h2 {
+    font-size: 43px;
+    line-height: 128%;
+    margin: 0 0 8px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+
+  .btn {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 0;
+    width: 225px;
+    margin: 10px;
+  }
+
+  .btn-flex {
+    justify-content: center;
+  }
+
+  .cards {
+    margin-top: 30px;
+  }
+
+  .contact-btn {
+    padding: 16px 30px;
+    margin-top: 40px;
+  }
+
+  .contact-info {
+    margin-right: 30px;
+  }
+
+  .copyright {
+    font-weight:400;
+    font-size:14px;
+  }
+
+  .flex-box-footer {
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  .flex-box-pages {
+    margin-top:30px;
+    margin-bottom: 60px;
+  }
+
+  .footer-column {
+    min-height: 190px;
+    margin: 0 10px;
+  }
+
+  .footer-section {
+    padding: 60px 35px;
+  }
+
+  .footer-section-pink {
+    padding: 60px 35px;
+  }
+
+
+  .gallery-container{
+    padding: 0 45px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gallery-heading {
+    padding: 30px 45px 20px;
+  }
+
+  .gallery-image {
+    margin-bottom: 1.35vw;
+    max-width: 32%;
+  }
+
+
+  .h2-pages {
+    margin-bottom: 15px;
+  }
+
+  .hero-text {
+    padding: 90px 0 45px 0;
+    max-width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .hero-section {
+    min-height: 620px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .landscaping-page {
+    padding: 30px 45px 100px;
+  }
+
+  .learn-more {
+    margin-top: 30px;
+  }
+
+  .section-container {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .second-paragraph {
+    margin-top: 20px;
+  }
+
+  .section-white {
+    padding: 60px 45px;
+  }
+
+  .section-pink {
+    padding: 60px 45px;
+  }
+
+  .section-testimonial {
+    padding: 60px 30px;
+  }
+
+  .text-box {
+    margin-right: 20px;
+  }
+
+  .text-box-pink {
+    margin-left: 20px;
+  }
+
+  .text-box-pages {
+    max-width: 45vw;
+    margin-right: 5px;
+  }
+
+  #pink-flwr {
+    max-width: 197px;
+    position: absolute;
+    right: 0;
+    margin-top: -160px;
+  }
+
+  #l-pink-flwr {
+    max-width: 15vw;
+    position: absolute;
+    left: 0;
+    margin-top: -1vw;
+  }
+
+  #white-flwr {
+    max-width: 187px;
+    position: absolute;
+    right: 70px;
+    margin-top: -22px;
+  }
+
+}
+
+/*******landscape mobiles or portrait tablets - 767px or less ******/
+
+@media only screen and (max-width: 767px) {
+  a {
+    font-size: 12px;
+  }
+
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 118%;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 118%;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .btn {
+    width: 200px;
+    margin: 5px;
+  }
+
+  .cards {
+    margin-top: 15px;
+  }
+
+  .contact-btn {
+    padding: 14px 35px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .contact-info {
+    margin-right: 100px;
+  }
+
+
+  .flex-box-footer {
+    margin-bottom: 50px;
+  }
+
+  .flex-box-pages {
+    margin-bottom: 40px;
+  }
+
+  .footer-column {
+    min-height: 160px;
+  }
+
+  .footer-column-hide {
+    display: none;
+    margin: 0;
+  }
+
+  .footer-section {
+    padding: 45px 20px;
+  }
+
+  .footer-section-pink {
+    padding: 45px 20px;
+  }
+
+
+  .gallery-container{
+    padding: 0 30px 60px;
+  }
+
+  .gallery-heading {
+    padding: 10px 30px 15px;
+  }
+
+  .gallery-image {
+    margin-bottom: 1vw;
+    max-width: 32%;
+  }
+
+
+  .h2-pages {
+    margin-bottom: 10px;
+  }
+
+  .hero-text {
+    padding: 20px 0 30px 0;
+  }
+
+
+  .hero-section {
+    min-height: 425px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .landscaping-page {
+    padding: 20px 30px 60px;
+  }
+
+  .learn-more {
+    margin-top: 10px;
+  }
+
+  .section-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .nav-active{
+    transform: translate(0%);
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 61px;
+    position: absolute;
+    height: 80px;
+    top:50px;
+    right: 130px;
+    transform: translateX(100%);
+    transition: transform 0.5 ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+    margin-left: 0;
+  }
+
+  .nav-links-pg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 61px;
+    position: absolute;
+    height: 80px;
+    top:70px;
+    right: 130px;
+    transform: translateX(100%);
+    transition: transform 0.5 ease-in;
+  }
+
+  .nav-links-pg li {
+    opacity: 0;
+    margin-left: 0;
+  }
+
+
+  .page-img {
+    margin-bottom: 40px;
+  }
+
+  .section-white {
+    padding: 45px 30px;
+  }
+
+  .reviewer {
+    margin-top: 10px;
+  }
+
+  .section-pink {
+    padding: 45px 30px;
+  }
+
+  .stars {
+    margin: 5px 0 0;
+  }
+
+/*** fix testimonial ***/
+
+  .section-testimonial {
+    padding: 45px 30px;
+  }
+
+  .testimonial-content {
+    padding: 15px;
+  }
+
+  /*** fix testimonial ***/
+
+  .text-box {
+    margin-right: 10px;
+  }
+
+  .text-box-pink {
+    margin-left: 10px;
+  }
+
+  .text-box-pages {
+    max-width: 350px;
+    margin-right: 0;
+  }
+
+  #pink-flwr {
+    max-width: 110px;
+    margin-top: -78px;
+  }
+
+  #l-pink-flwr {
+    max-width: 15vw;
+    margin-top: -1vw;
+  }
+
+  #white-flwr {
+    max-width: 120px;
+    right: 30px;
+    margin-top: -2px;
+  }
+
+}
+
+/*******portrait mobile - 600px or less ******/
+
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  .btn-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+
+  .btn:hover {
+    background-color: #6D0D3F;
+    color: white;
+    transform: none;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .contact-btn:hover {
+    background-color: #25313C;
+    transform: none;
+  }
+
+
+  .contact-info {
+    margin-right: auto;
+  }
+
+  .flex-box-pages {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .flex-box-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1190px;
+    margin-bottom: 30px;
+  }
+
+  .flex-box-pages {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: auto;
+    min-height: 100px;
+    height: auto;
+    margin: 15px 0;
+    padding: none;
+  }
+
+  .footer-section {
+    padding: 45px 30px;
+  }
+
+  .footer-section-pink {
+    padding: 45px 30px;
+  }
+
+  .gallery-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .gallery-image {
+    min-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .heidi-pic {
+    margin-top: 15px;
+  }
+
+  .hero-section {
+    min-height: 450px;
+  }
+
+  .hero-text {
+    padding: 35px 0 20px 0;
+  }
+
+  .homepage-img {
+      display: none;
+    }
+
+  .heidi-pic {
+    display: none;
+  }
+
+  .page-img {
+    display: none;
+  }
+
+  .text-box {
+    max-width: none;
+    margin-right: none;
+  }
+
+  .text-box-pink {
+    margin-left: 0px;
+    max-width: none;
+  }
+
+  .text-box-pages {
+    margin-right: 0px;
+    max-width: none;
+  }
+
+
+  #l-pink-flwr {
+    display: none;
+  }
+
+  #pink-flwr {
+    max-width: 100px;
+    position: absolute;
+    right: 0;
+    margin-top: -67px;
+  }
+
+
+}
+
+
+@keyframes navLinkFade {
+  from{
+    opacity: 0;
+    transform: translate(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0);
+  }
+
+}
